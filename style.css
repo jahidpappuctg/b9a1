@@ -139,20 +139,17 @@
 }
 
 /* prank area */
-.parnk-area{
-    width: 1320px;
-    height: 482px;
-    flex-shrink: 0;
-
+.prak-area{
+     margin: 120px 0; 
+     height: 482px; 
 }
-.parnk-content-area{
+ .nptext-area{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    height: 482px ;
     text-align: center;
-    margin-top: 120px;
-    position: relative;
-   
-}
+ }
+ .parnk-content{
+    padding: 120px 0;
+ }
  .parnk-content h4{
     color: #070211;
     font-size: 32px;
@@ -160,14 +157,7 @@
     font-weight: 600;
     text-transform: capitalize;
  }
- .parnk-content {
-    position: absolute; 
-    width: 100%;
-    top:50%; 
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
- }
+ 
 .parnk-content span{
    color: red;
 }
@@ -175,12 +165,15 @@
     background-color: red;
     border-radius: 10px;
     margin-top: 48px;
-    padding: 10px 20px;
+    padding: 16px 32px;
     color: #FFF;
     border: 0;
 }
 
 /*  */
+.comingsoon-area{
+    margin: 120px 0;
+}
 .comingsoon-content-area{
     display: flex;
     align-items: center;
@@ -236,21 +229,20 @@
 }
 
 .holiday-content-area{
-
-}
-.holiday-content-area .holiday-content{
     text-align: center;
+}
+.holiday-content{
+    margin-bottom: 64px;
 }
 .holiday-content h4{
     color: #070211;
     font-family: Inter;
-    font-size: 18px; 
+    font-size: 24px; 
     font-weight: 500; 
     margin-bottom: 16px;
 }
 .holiday-content h2 {
-        color: #F00;
-    text-align: center;
+    color: #F00;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
@@ -261,11 +253,9 @@
 }
 .holiday-content p {
     color: rgba(7, 2, 17, 0.60);
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-weight: 500;
-    width: 1070px;
+    font-weight: 500; 
 }
 
 /* portfolio */
@@ -319,12 +309,53 @@
     transition: .9;
 }
 /* subscribe */
-
+.subscribe-area{
+    margin: 120px 0;
+}
 .subscribe-content-area{
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 0;
 }
 
+.subscribe-content h3{
+    margin-top: 40px;
+    margin-bottom: 22px;
+    color: #070211; 
+    font-family: Merriweather;
+    font-size: 48px; 
+    font-weight: 900; 
+    text-transform: capitalize; 
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.subscribe-btn{
+    margin-top: 48px;
+    position: relative;
+}
+.subscribe-btn input{
+    padding: 25px 150px;
+    border-radius: 30px;
+    border-style: none;
+}
+.subscribe-btn button{
+    position: absolute;
+    background-color: red;
+    border-radius:  0px 30px 30px 0px; 
+    padding: 25px 32px;
+    color: #FFF;
+    border: 0;
+    top: 0;
+    left: 768px;
+}
 /* footer */
 
 .footer-area{ 
