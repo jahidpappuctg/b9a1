@@ -104,25 +104,18 @@
 }
 
 /* mdnight party */
-.midnightparty-area { 
-    
-}
-.midnightparty-content-area{ 
+ 
+.mnparty-content-area{ 
+    background-image: url(images/Vectorrr.png);
+    /* background:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 60px 120px;
+    position: relative;
 }
 
-.midnightparty-content-area .midnightparty-content {
-    color: #FFF;
-    position: absolute; 
-    width: 50%;
-    top:40%; 
-    left:20%;
-    text-align: left; 
-    z-index: 2;
-}
-.midnightparty-content h2{
+.mntext h2{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px; 
@@ -131,11 +124,18 @@
     margin-bottom: 24px                                      ;
 }
 
-.midnightparty-content p{
-
+.mntext p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px; 
+    font-weight: 400; 
 }
-.midnightparty-content button{
-
+.mntext button{
+    
+    border-radius: 10px;
+    margin-top: 48px;
+    padding: 10px 20px; 
+    border: 0;
 }
 
 /* prank area */
@@ -143,8 +143,6 @@
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
-     
-   
 
 }
 .parnk-content-area{
