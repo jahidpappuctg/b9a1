@@ -264,7 +264,9 @@
 
 /* portfolio */
 
-
+.portfolio-area{
+    margin: 100px 0;
+}
 .portfolio-content-area{
     text-align: left;
 }
@@ -296,7 +298,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
 }
 
@@ -313,3 +315,41 @@
 
 
 
+/* footer */
+
+.footer-area{ 
+    background-color: #070211;
+}
+.footer-top{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer-top-left{
+    color: #FFF;
+}
+.footer-middle{
+    text-align: center;
+}
+.footer-middle ul {
+
+}
+.footer-middle ul li {
+    display: inline-block;
+    padding: 16px 10px;
+}
+.footer-middle ul li a{
+    
+    
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+}
+.footer-bottom-left{
+    
+   
+}
