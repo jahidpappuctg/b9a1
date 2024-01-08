@@ -228,3 +228,88 @@
     font-weight: 400; 
     margin-bottom: 40px;
 }
+
+.holiday-content-area{
+
+}
+.holiday-content-area .holiday-content{
+    text-align: center;
+}
+.holiday-content h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px; 
+    font-weight: 500; 
+    margin-bottom: 16px;
+}
+.holiday-content h2 {
+        color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.holiday-content h2 span {
+    color: #070211;
+}
+.holiday-content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1070px;
+}
+
+/* portfolio */
+
+
+.portfolio-content-area{
+    text-align: left;
+}
+.portfolio-content h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px; 
+    font-weight: 500; 
+    margin-bottom: 16px;
+}
+.portfolio-content h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px; 
+    font-weight: 900; 
+    text-transform: capitalize;
+}
+
+.portfolio-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1070px;
+}
+
+.portfolio-image{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image1 {
+    padding: 0 10px 10px;
+    width: 424px;
+    height: 450px;
+    }
+ 
+.image1:hover{
+    opacity: .3;
+    transition: .9;
+}
+
+
+
