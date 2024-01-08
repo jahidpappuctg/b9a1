@@ -257,7 +257,9 @@
     font-size: 20px;
     font-weight: 500; 
 }
-
+.holiday-image img{
+    width: 100%;
+}
 /* portfolio */
 
 .portfolio-area{
