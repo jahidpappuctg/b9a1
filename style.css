@@ -363,17 +363,30 @@
 .footer-area{ 
     background-color: #070211;
 }
+.footer-content-area{
+    padding: 120px 0;
+}
 .footer-top{  
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    padding-bottom: 50px; 
 }
-.footer-top-left{
+.footer-top-left p{
     color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
 }
+.footer-top-right ul li{
+    display: inline-block;
+    color: #fff; 
+}
+
+ 
 .footer-middle{
     text-align: center;
+    padding: 48px 0;
 }
 .footer-middle ul {
 
@@ -387,6 +400,7 @@
     
 }
 .footer-bottom{
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
